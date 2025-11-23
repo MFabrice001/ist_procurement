@@ -2,9 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
-// Uses the environment variable if available (Live), otherwise uses localhost (Dev)
-const api = axios.create({ baseURL: import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000/api/' });
-
+const api = axios.create({ baseURL: 'https://ist-backend-05op.onrender.com/api/' });
 // --- LOGIN COMPONENT ---
 function Login() {
     const [username, setUsername] = useState('');
