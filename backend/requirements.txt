@@ -2,7 +2,7 @@ Django>=4.2
 djangorestframework
 psycopg2-binary
 python-dotenv
-corsheaders
+django-cors-headers
 drf-yasg
 dj-database-url
 openai
