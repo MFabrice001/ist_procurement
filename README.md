@@ -1,49 +1,48 @@
-IST Procurement System
+# IST Procurement System
 
-A Full Stack "Procure-to-Pay" system built for the IST Africa Technical Assessment.
-Includes Multi-level approvals, Role-based access, and AI-powered document processing.
+A Full Stack "Procure-to-Pay" system built with Django (Backend) and React (Frontend).
 
-Tech Stack
+## 🚀 Live Demo
 
-Backend: Django + Django REST Framework
+- **Frontend (Dashboard): https://ist-frontend.onrender.com
 
-Frontend: React + Vite (Tailwind CSS style)
+- **Backend (API): https://ist-backend-05op.onrender.com
 
-Database: PostgreSQL
+- **API Documentation (Swagger):** 
 
-AI Integration: OpenAI (Mock mode enabled by default)
+https://ist-backend-05op.onrender.com/swagger/
 
-Infrastructure: Docker & Docker Compose
+## 🛠 Tech Stack
 
-Features
+- **Backend:** Django 5, Django REST Framework, PostgreSQL
+- **Frontend:** React (Vite), Axios, CSS Modules
+- **Infrastructure:** Docker, Render (Cloud Deployment)
 
-Purchase Requests: Create requests with AI auto-fill from PDF/Images.
+## ✨ Features
 
-Approval Workflow: Staff -> Manager -> Finance approval flow.
+- **User Roles:** Role-based access (Staff, Manager, Finance).
+- **Purchase Requests:** Create, View, and Track status of requests.
+- **Approval Workflow:** Backend logic for Multi-level approvals.
+- **Modern UI:** Clean, responsive dashboard with real-time statistics.
+- **API Documentation:** Fully interactive Swagger UI.
 
-Role-Based Dashboard: Different views for Staff vs Admins.
+## 📦 Local Setup Instructions
 
-Dockerized: One-command setup.
+### Prerequisites
 
-A link to my Repository:
+- Docker & Docker Compose
+- Node.js (v18+)
+
+### 1. Run with Docker (Recommended)
+
+```bash
+git clone https://github.com/MFabrice001/ist_procurement.git
+cd ist_procurement
+docker-compose up --build
+
+## A link to my Repository:
 
 https://github.com/MFabrice001/ist_procurement
-
-How to Run (Docker)
-
-Prerequisites: Docker Desktop installed and running.
-
-Clone the repository:
-
-bash
-   git clone [https://github.com/MFabrice001/ist_procurement.git](https://github.com/MFabrice001/ist_procurement.git)
-
-   cd ist_procurement
-
-
-Start the application:
-
-docker-compose up --build
 
 
 Access the App:
