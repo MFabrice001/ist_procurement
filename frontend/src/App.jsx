@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
-// API Configuration
-const api = axios.create({ baseURL: 'http://127.0.0.1:8000/api/' });
+// Uses the environment variable if available (Live), otherwise uses localhost (Dev)
+const api = axios.create({ baseURL: import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000/api/' });
 
 // --- LOGIN COMPONENT ---
 function Login() {
