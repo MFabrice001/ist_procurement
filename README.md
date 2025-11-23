@@ -25,14 +25,20 @@ Role-Based Dashboard: Different views for Staff vs Admins.
 
 Dockerized: One-command setup.
 
+A link to my Repository:
+
+https://github.com/MFabrice001/ist_procurement
+
 How to Run (Docker)
 
 Prerequisites: Docker Desktop installed and running.
 
 Clone the repository:
 
-git clone <https://github.com/MFabrice001/ist_procurement>
-cd ist_procurement
+bash
+   git clone [https://github.com/MFabrice001/ist_procurement.git](https://github.com/MFabrice001/ist_procurement.git)
+
+   cd ist_procurement
 
 
 Start the application:
